@@ -1,0 +1,17 @@
+/* Пример стилей для глобальных компонентов */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9fafb;
+    padding: 0;
+    margin: 0;
+}
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
